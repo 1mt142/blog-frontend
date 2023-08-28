@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Technology",
+        "img": "/thumbnails/categories/technology.jpg",
+        "url": "/category/single-category",
+        "posts": 2
+    },
+    {
+        "title": "Science",
+        "img": "/thumbnails/categories/science.jpg",
+        "url": "/category/single-category",
+        "posts": 4
+    },
+    {
+        "title": "Environment",
+        "img": "/thumbnails/categories/environment.jpg",
+        "url": "/category/single-category",
+        "posts": 2
+    },
+    {
+        "title": "Travel",
+        "img": "/thumbnails/categories/travel.jpg",
+        "url": "/category/single-category",
+        "posts": 2
+    },
+    {
+        "title": "Relationships",
+        "img": "/thumbnails/categories/relationships.jpg",
+        "url": "/category/single-category",
+        "posts": 7
+    },
+    {
+        "title": "Health",
+        "img": "/thumbnails/categories/health.jpg",
+        "url": "/category/single-category",
+        "posts": 1
+    }
+]

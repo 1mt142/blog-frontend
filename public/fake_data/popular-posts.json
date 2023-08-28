@@ -1,0 +1,30 @@
+[
+    {
+        "img": "/thumbnails/popular-1.jpg",
+        "category": "Technology",
+        "title": "AI in Healthcare: Transforming Medicine",
+        "url": "/blog/single-post",
+        "date": "August 04, 2023"
+    },
+    {
+        "img": "/thumbnails/popular-2.jpg",
+        "category": "Science",
+        "title": "Exoplanet Exploration: New Discoveries",
+        "url": "/blog/single-post",
+        "date": "August 01, 2023"
+    },
+    {
+        "img": "/thumbnails/popular-3.jpg",
+        "category": "Environment",
+        "title": "Eco-Friendly Fashion: Sustainable Choices",
+        "url": "/blog/single-post",
+        "date": "July 27, 2023"
+    },
+    {
+        "img": "/thumbnails/popular-4.jpg",
+        "category": "Health",
+        "title": "Mindfulness Meditation for a Balanced Life",
+        "url": "/blog/single-post",
+        "date": "July 26, 2023"
+    }
+]

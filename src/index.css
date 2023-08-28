@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container { 
+  @apply mx-auto px-16 max-lg:px-4
+}
+
+.navbar.mobile-sidebar{
+  @apply 
+    flex 
+    lg:gap-2 
+    lg:items-center 
+    max-lg:fixed 
+    max-lg:-right-full 
+    max-lg:top-0 
+    max-lg:bg-[rgba(0,0,0,.9)] 
+    max-lg:backdrop-blur-sm 
+    max-lg:h-full 
+    max-lg:flex-col 
+    max-lg:z-50 
+    max-lg:w-60 
+    max-lg:justify-center 
+    max-lg:items-start 
+    max-lg:p-4
+    max-lg:transition-all
+}
+
+.navbar.mobile-sidebar.sidebar-show{
+  @apply max-lg:right-0
+}
+
+.navbar.mobile-sidebar .sidebar-close{
+  @apply 
+    lg:hidden
+    max-lg:absolute 
+    max-lg:top-7
+    max-lg:right-3
+    max-lg:px-4 
+    max-lg:py-3
+    max-lg:cursor-pointer 
+    max-lg:text-white
+}
+
+.navbar.mobile-sidebar a{
+  @apply 
+    px-4 
+    py-2 
+    text-[#3B3C4A] 
+    hover:text-[#101013] 
+    max-lg:text-white 
+    max-lg:hover:text-white
+}
+
+.sidebar-backdrop{
+  @apply 
+    lg:hidden
+    max-lg:bg-[rgba(0,0,0,.45)] 
+    max-lg:fixed 
+    max-lg:top-0 
+    max-lg:left-0 
+    max-lg:right-0 
+    max-lg:w-[100vw] 
+    max-lg:h-[100vh] 
+    max-lg:z-40
+    max-lg:transition-all
+    max-lg:opacity-0
+    max-lg:pointer-events-none
+}
+
+.navbar.mobile-sidebar.sidebar-show + .sidebar-backdrop{
+  @apply
+    lg:hidden
+    max-lg:pointer-events-auto
+    max-lg:opacity-100
+}
+
+#postContent img{
+  @apply
+    rounded-xl 
+    h-96 
+    w-full 
+    object-cover 
+    object-top
+    my-8
+}
+
+#postContent h2{
+  @apply 
+    text-2xl 
+    font-semibold 
+    mt-8 
+    mb-4
+}
+
+#postContent p{
+  @apply 
+    mt-3
+    opacity-70
+}
+
+#postContent .quote{
+  @apply 
+    bg-[#F6F6F7] 
+    p-6 
+    border-l-4 
+    rounded-xl 
+    border-l-[#E8E8EA] 
+    my-8 
+    italic 
+    text-[#181A2A]
+}
+
+html, body, #root{
+  height: 100%;
+  overflow-x: hidden;
+  color: #181A2A;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+}
+
+#root > *{
+  flex-shrink: 0;
+}

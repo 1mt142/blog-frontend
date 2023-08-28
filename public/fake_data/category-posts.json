@@ -1,0 +1,30 @@
+[
+    {
+        "img": "/thumbnails/articles-1.png",
+        "title": "The Impact of Artificial Intelligence in Healthcare",
+        "url": "/blog/single-post",
+        "date": "August 04, 2023",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, voluptas! Voluptatem, cumque odio..."
+    },
+    {
+        "img": "/thumbnails/articles-2.png",
+        "title": "Unveiling the Wonders of Exoplanets in Space Science",
+        "url": "/blog/single-post",
+        "date": "August 02, 2023",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, voluptas! Voluptatem, cumque odio..."
+    },
+    {
+        "img": "/thumbnails/articles-3.png",
+        "title": "Sustainable Living: Embracing an Eco-Friendly Lifestyle",
+        "url": "/blog/single-post",
+        "date": "July 31, 2023",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, voluptas! Voluptatem, cumque odio..."
+    },
+    {
+        "img": "/thumbnails/articles-4.png",
+        "title": "The Art of Travel: Capturing Memories Photography",
+        "url": "/blog/single-post",
+        "date": "July 28, 2023",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, voluptas! Voluptatem, cumque odio..."
+    }
+]

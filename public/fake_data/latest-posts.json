@@ -1,0 +1,44 @@
+[
+    {
+        "img": "/thumbnails/articles-1.png",
+        "category": "Technology",
+        "title": "The Impact of Artificial Intelligence in Healthcare",
+        "url": "/blog/single-post",
+        "date": "August 04, 2023"
+    },
+    {
+        "img": "/thumbnails/articles-2.png",
+        "category": "Science",
+        "title": "Unveiling the Wonders of Exoplanets in Space Science",
+        "url": "/blog/single-post",
+        "date": "August 02, 2023"
+    },
+    {
+        "img": "/thumbnails/articles-3.png",
+        "category": "Environment",
+        "title": "Sustainable Living: Embracing an Eco-Friendly Lifestyle",
+        "url": "/blog/single-post",
+        "date": "July 31, 2023"
+    },
+    {
+        "img": "/thumbnails/articles-4.png",
+        "category": "Travel",
+        "title": "The Art of Travel: Capturing Memories Through Photography",
+        "url": "/blog/single-post",
+        "date": "July 28, 2023"
+    },
+    {
+        "img": "/thumbnails/articles-5.png",
+        "category": "Relationships",
+        "title": "Building Strong Relationships: The Key to Lasting Happiness",
+        "url": "/blog/single-post",
+        "date": "July 20, 2023"
+    },
+    {
+        "img": "/thumbnails/articles-6.png",
+        "category": "Health",
+        "title": "Mindful Eating: A Journey to Optimal Health",
+        "url": "/blog/single-post",
+        "date": "July 19, 2023"
+    }
+]
